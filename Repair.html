@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Repair Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* section_a */
+        .section_a {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .section_a img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .section_a:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .section_a-content {
+            width: 550px;
+            height: auto;
+        }
+
+        .section_a-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section_a-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+
+        }
+
+        /* section_b */
+        .section_b {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .section_b img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .section_b:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .section_b-content {
+            width: 550px;
+            height: auto;
+        }
+
+        .section_b-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section_b-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+
+        }
+
+        /* section_c */
+        .section_c {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .section_c img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .section_c:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .section_c-content {
+            width: 550px;
+            height: auto;
+        }
+
+        .section_c-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section_c-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+
+        }
+
+
+        /* section_d */
+        .section_d {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .section_d img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .section_d:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .section_d-content {
+            width: 550px;
+            height: auto;
+        }
+
+        .section_d-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .section_d-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+
+        }
+
+
+
+        .btn,
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4a56e2;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .hero img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .hero-text {
+            width: 550px;
+            height: auto;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            
+        }
+
+        .faqs {
+            margin-top: 60px;
+        }
+
+        .faqs h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .faq-item:hover {
+            background-color: #e0e0e0;
+        }
+
+        .faq-item p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .faq-item i {
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-text,
+            .section-content {
+                max-width: 100%;
+                margin: 0;
+            }
+
+            .section img,
+            .hero img {
+                margin: 0 0 20px 0;
+            }
+        }
+
+        .big_img{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            background: url("main_img.jpg");
+            background-position: 50%;
+            
+        }
+
+        .big_img_heading{
+            margin-top: 190px;
+            font-weight: 600;
+            letter-spacing: 1.7px;
+            color: wheat;
+            font-family: serif;
+            font-size: large;
+            text-shadow: #000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://storage.googleapis.com/a1aa/image/DKVCDs5FTOLdGdvKSEjHd5kOEmWAWegLRwoYZyjEJDLfGx6TA.jpg"
+            alt="Company Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Repairs</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="big_img">
+        
+        <div class="big_img_heading">
+            <h1>Improvement & Repair</h1>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <div class="hero_img">
+                <img src="home-interior.jpg"
+                    alt="Home Repair">
+            </div>
+            <div class="hero-text">
+                <h1>Home Repair</h1>
+                <p>Home repair refers to the process of fixing or improving damaged or broken parts of a house, such as
+                    walls, roofs, plumbing, electrical systems, and more. It can range from small, routine repairs like
+                    fixing a leaky faucet or patching a hole in the wall, to complex projects like replacing a roof or
+                    renovating a bathroom.</p>
+                <button>Book Appointment</button>
+            </div>
+        </div>
+        <div class="section_a">
+            <div class="section_a_img">
+                <img src="kitchen_img.avif" alt="Kitchen Repair">
+            </div>
+            <div class="section_a-content">
+                <h2>Kitchen Repair</h2>
+                <p>Kitchen repair involves fixing or replacing damaged or broken parts of a kitchen, such as cabinets,
+                    countertops, appliances, plumbing, and electrical systems. Common kitchen repairs include fixing
+                    leaky faucets, repairing or replacing broken cabinets or drawers, repairing appliances, and fixing
+                    or replacing damaged flooring.</p>
+                <a class="btn" href="#">Book Appointment</a>
+            </div>
+        </div>
+        <div class="section_b">
+            <div class="section_b_img">
+                <img src="bathroom.jpg"
+                    alt="Bathroom Repair">
+            </div>
+            <div class="section_b-content">
+                <h2>Bathroom Repair</h2>
+                <p>Bathroom repair involves fixing or replacing damaged or broken parts of a bathroom, such as the
+                    toilet, sink, shower, bathtub, flooring, and plumbing. Common bathroom repairs include fixing leaks,
+                    repairing or replacing damaged tiles or flooring, repairing or replacing broken fixtures, and
+                    unclogging drains. Proper and timely bathroom repair is important to maintain the safety,
+                    functionality, and value of a home.</p>
+                <a class="btn" href="#">Book Appointment</a>
+            </div>
+        </div>
+        <div class="section_c">
+            <div class="section_c_img">
+                <img src="furniture.jpg"
+                    alt="Furniture Repair">
+            </div>
+            <div class="section_c-content">
+                <h2>Furniture Repair</h2>
+                <p>Furniture repair involves fixing or restoring damaged or broken furniture pieces. Common furniture
+                    repairs include fixing or replacing broken legs or arms, repairing or replacing damaged upholstery
+                    or cushions, and repairing or replacing broken drawers or hardware. Proper and timely furniture
+                    repair is important to maintain the functionality and aesthetic appeal of furniture pieces, and to
+                    ensure their longevity.</p>
+                <button>Book Appointment</button>
+            </div>
+        </div>
+        <div class="section_d">
+            <div class="section_d_img">
+                <img src="plumbing.jpg"
+                    alt="Plumbing and Pipes">
+            </div>
+            <div class="section_d-content">
+                <h2>Plumbing and Pipes</h2>
+                <p>Plumbing and pipes are an essential part of any building's infrastructure, responsible for carrying
+                    water and other liquids throughout the building. Regular maintenance and repair of plumbing and
+                    pipes are essential to prevent leaks, water damage, and other issues. Common plumbing and pipe
+                    problems include leaks, clogs, broken pipes, and low water pressure.</p>
+                <button>Book Appointment</button>
+            </div>
+        </div>
+        <div class="faqs">
+            <h2>FAQs</h2>
+            <div class="faq-item">
+                <p>1. Why do I need an interior designer?</p>
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-item">
+                <p>2. Why is Aiskcon perfect for your design?</p>
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-item">
+                <p>3. What services are included under home interior design?</p>
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-item">
+                <p>4. What will be the timelines for my project completion?</p>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
